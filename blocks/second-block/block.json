@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "theme/second-block",
+	"version": "0.1.0",
+	"title": "Second Block",
+	"category": "design",
+	"icon": "dashicons-block-default",
+	"description": "The second block!",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "theme-gutenberg-blocks",
+	"editorScript": "file:../../build/second-block.js",
+	"editorStyle": "file:../../build/second-block.css",
+	"style": "file:../../build/style-second-block.css"
+}

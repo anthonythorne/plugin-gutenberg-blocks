@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "theme/third-block",
+	"version": "0.1.0",
+	"title": "Third Block",
+	"category": "design",
+	"icon": "dashicons-block-default",
+	"description": "The third block!",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "theme-gutenberg-blocks",
+	"editorScript": "file:../../build/third-block.js",
+	"editorStyle": "file:../../build/third-block.css",
+	"style": "file:../../build/style-third-block.css"
+}

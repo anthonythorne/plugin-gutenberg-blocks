@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "theme/first-block",
+	"version": "0.1.0",
+	"title": "First Block",
+	"category": "design",
+	"icon": "dashicons-block-default",
+	"description": "The first block!",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "theme-gutenberg-blocks",
+	"editorScript": "file:../../build/first-block.js",
+	"editorStyle": "file:../../build/first-block.css",
+	"style": "file:../../build/style-first-block.css"
+}
