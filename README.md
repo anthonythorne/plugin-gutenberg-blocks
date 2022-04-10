@@ -91,7 +91,7 @@ combined into the final markup, which is then serialized by the block editor int
 
 #### Register the new block
 That's it, the block will be auto registered based on the above files, and the block will be auto
-bundled next time the script is run from teh root directory of this plugin.
+bundled next time the script is run from the root directory of this plugin.
 
 
 ### <a id="customisation-multiplevs-vs-combined-block-asset-files">Multiple vs Combined Block Asset Files</a>
@@ -128,8 +128,9 @@ remember to run the build before every commit to the repository.
 
 
 ## <a id="todo">TODO</a>
-Nice to address at some point, advice would be welcome.
+The following would be nice to address at some point, and advice would be welcome.
 
-* See if there is a global way to set `multipleEntryPoint`, so that it's passed to the `webpack.config.js` for the
-  entry points, and it automatically is can be handled within the script/package.json scripts and passed in. Not
-  sure if it really matters as the user still needs to update the block.json to point at the correct asset files.
+* SIs there a way that the variable used within the webpack file could be globally set `multipleEntryPoint`,
+  so that it's passed to the `webpack.config.js` for the entry points. In addition it would be used to automatically
+  update the block.json files for each of the custom blocks, dictating the "editorScript", "editorStyle", and "style"
+  keys.
