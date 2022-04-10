@@ -130,7 +130,7 @@ remember to run the build before every commit to the repository.
 ## <a id="todo">TODO</a>
 The following would be nice to address at some point, and advice would be welcome.
 
-* SIs there a way that the variable used within the webpack file could be globally set `multipleEntryPoint`,
+* Find a way for the variable used within the webpack file could be globally set `multipleEntryPoint`,
   so that it's passed to the `webpack.config.js` for the entry points. In addition it would be used to automatically
   update the block.json files for each of the custom blocks, dictating the "editorScript", "editorStyle", and "style"
   keys.
