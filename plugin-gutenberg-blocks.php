@@ -1,5 +1,17 @@
 <?php
 /**
+ * Plugin Name: Plugin Gutenberg Blocks
+ * Plugin URI: https://github.com/anthonythorne/plugin-gutenberg-blocks
+ * Description: This is a boilerplate for adding multiple blocks within a plugin.
+ * Version: 1.0.0
+ * Author: Anthony Thorne
+ * Author URI: https://github.com/anthonythorne/
+ * Text Domain: plugin-gutenberg-blocks
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+
+/**
  * Registers the block using the metadata loaded from the `block.json` file.
  * Behind the scenes, it registers also all assets so they can be enqueued
  * through the block editor in the corresponding context.

@@ -39,8 +39,9 @@ The following is the basic directory structure.
 This section details the beginning of the setup within your plugin.
 
 1. Place a copy of this directory within your plugins.
-1. Rename the files and strings.
-1. Navigate to the plugin directory and run the commands for the build.
+1. Rename the files and strings for the plugins name etc.
+1. Navigate to the plugin directory and run the commands for the build. This is assuming its still
+   called `plugin-gutenberg-blocks`
 
 ```bash
 cd wp-content/plugins/plugin-gutenberg-blocks
